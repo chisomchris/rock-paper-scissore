@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js" defer></script>
+  <title>rock paper scissors</title>
+</head>
+<body>
+  <header>
+    <div class="header__wrapper wrapper">
+      <h1>rock <span>paper</span> scissors</h1>
+      <div class="menu__btn" data-setting title="click to see menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="options__menu">
+        <ul>
+          <li data-setting-btn>Settings</li>
+          <li data-rules>Rules</li>
+        </ul>
+       </div>
+    </div>
+
+  </header>
+  <main>
+    <div class="wrapper">
+      <div class="score__report">
+        <h3>You&nbsp;<span class="player__score">0</span></h3>
+        <h3>Computer&nbsp;<span class="computer__score">0</span></h3>
+      </div>
+      <div class="round__report">
+        <p class="lead">Welcome!!!</p>
+        <p></p>
+      </div>
+      <div class="moves__container">
+        <div class="move__container__btn">
+          <button class='btn'data-move="1">paper</button>
+          <button class='btn'data-move="0">rock</button>
+          <button class='btn'data-move="2">sciss</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+ <div class="modal__container">
+  <p class="game__report"></p>
+  <button>play again</button>
+ </div>
+
+ <footer>
+   <div class="footer__wrapper wrapper">
+     <p>Copyrights &copy; <script>document.write(new Date().getFullYear())</script> chisom<span>chris</span></p>
+   </div>
+ </footer>
+</body>
+</html>
