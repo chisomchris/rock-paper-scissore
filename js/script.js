@@ -165,7 +165,7 @@ const gameLogicModule = ( () => {
     const para4 = createElement('p');
     para4.textContent = 'the rules to winning a round is as follows: ';
     const para5 = createElement('p');
-    para5.innerHTML = 'you can specify the number of rounds per game. visit <a href="#">Settings</a> to customize.';
+    para5.innerHTML = 'you can specify the number of rounds per game. visit Settings to customize.';
     
     const closeBtnCont = createElement('div', {'class': 'close__btn'});
     const closeBtn = createElement('button');
